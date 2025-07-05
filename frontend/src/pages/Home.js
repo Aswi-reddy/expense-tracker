@@ -22,7 +22,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = `${APIUrl}/products`;
+            const url = `https://expense-tracker-api-amber.vercel.app/products`;
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
